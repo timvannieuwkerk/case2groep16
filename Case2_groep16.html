@@ -13154,7 +13154,7 @@ div#notebook {
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> 
 <span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">linregress</span>
-<span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">widgets</span>
+<span class="kn">import</span> <span class="nn">ipywidgets</span>
 <span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="kn">import</span> <span class="n">interactive</span>
 <span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="kn">import</span> <span class="n">Button</span><span class="p">,</span> <span class="n">Layout</span>
 </pre></div>
@@ -13244,7 +13244,7 @@ div#notebook {
   <tbody>
     <tr>
       <th>0</th>
-      <td>b61159f5-b3ce-4011-af0b-1f7519fdce3f</td>
+      <td>e553158d-bdaa-4e96-9ba3-feb24c9bb4dd</td>
       <td>Afghanistan</td>
       <td>AF</td>
       <td>afghanistan</td>
@@ -13254,12 +13254,12 @@ div#notebook {
       <td>2446</td>
       <td>0</td>
       <td>49347</td>
-      <td>2021-03-03T13:52:18.842Z</td>
+      <td>2021-03-03T18:22:36.459Z</td>
       <td>{}</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>17e27df1-9cb3-4114-822c-360a11c9c708</td>
+      <td>5c7a828f-783b-4df9-ab8e-605c21c99b04</td>
       <td>Albania</td>
       <td>AL</td>
       <td>albania</td>
@@ -13269,12 +13269,12 @@ div#notebook {
       <td>1835</td>
       <td>0</td>
       <td>71173</td>
-      <td>2021-03-03T13:52:18.842Z</td>
+      <td>2021-03-03T18:22:36.459Z</td>
       <td>{}</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>c684993a-20ef-4437-933a-2306c15b4dea</td>
+      <td>bc96fa26-88c3-4b70-925a-31488a512e70</td>
       <td>Algeria</td>
       <td>DZ</td>
       <td>algeria</td>
@@ -13284,12 +13284,12 @@ div#notebook {
       <td>2991</td>
       <td>0</td>
       <td>78377</td>
-      <td>2021-03-03T13:52:18.842Z</td>
+      <td>2021-03-03T18:22:36.459Z</td>
       <td>{}</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>e43e44be-4e40-4102-9853-9559094096ca</td>
+      <td>691eae68-81f8-4281-b721-577114282b38</td>
       <td>Andorra</td>
       <td>AD</td>
       <td>andorra</td>
@@ -13299,12 +13299,12 @@ div#notebook {
       <td>110</td>
       <td>0</td>
       <td>10501</td>
-      <td>2021-03-03T13:52:18.842Z</td>
+      <td>2021-03-03T18:22:36.459Z</td>
       <td>{}</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2db52b60-f80d-422e-85e9-d4d00e22b72c</td>
+      <td>31967c1d-22e5-4976-8f6a-91a968d8dfe8</td>
       <td>Angola</td>
       <td>AO</td>
       <td>angola</td>
@@ -13314,7 +13314,7 @@ div#notebook {
       <td>510</td>
       <td>0</td>
       <td>19410</td>
-      <td>2021-03-03T13:52:18.842Z</td>
+      <td>2021-03-03T18:22:36.459Z</td>
       <td>{}</td>
     </tr>
   </tbody>
@@ -14109,7 +14109,7 @@ memory usage: 15.1+ KB
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>LinregressResult(slope=0.018836838912814728, intercept=1893.1316638032222, rvalue=0.95714405947245, pvalue=9.698444788777509e-105, stderr=0.000412411668373261)</pre>
+<pre>LinregressResult(slope=0.018836000959226024, intercept=1893.496680005952, rvalue=0.9571420428256489, pvalue=9.74118723442621e-105, stderr=0.00041240368151083766)</pre>
 </div>
 
 </div>
@@ -14127,7 +14127,7 @@ memory usage: 15.1+ KB
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">checkbox1</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Checkbox</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Regressielijn&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">checkbox1</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">Checkbox</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Regressielijn&#39;</span><span class="p">)</span>
 
 <span class="k">def</span> <span class="nf">regressielijn</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
     <span class="n">g</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">relplot</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">df_corona_country_merge_2</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="s1">&#39;TotalConfirmed&#39;</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s1">&#39;TotalDeaths&#39;</span><span class="p">,</span> <span class="n">kind</span> <span class="o">=</span> <span class="s1">&#39;scatter&#39;</span><span class="p">,</span> <span class="n">hue</span> <span class="o">=</span> <span class="s1">&#39;Continent_Name&#39;</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="s1">&#39;Habitants&#39;</span><span class="p">)</span>
@@ -14139,8 +14139,8 @@ memory usage: 15.1+ KB
     <span class="n">fy</span> <span class="o">=</span> <span class="n">res</span><span class="o">.</span><span class="n">intercept</span> <span class="o">+</span> <span class="n">res</span><span class="o">.</span><span class="n">slope</span> <span class="o">*</span> <span class="n">fx</span> 
     <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">fx</span><span class="p">,</span> <span class="n">fy</span><span class="p">,</span> <span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="n">visible</span> <span class="o">=</span> <span class="n">x</span><span class="p">)</span>
 
-<span class="n">out</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">interactive_output</span><span class="p">(</span><span class="n">regressielijn</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;x&#39;</span><span class="p">:</span> <span class="n">checkbox1</span><span class="p">})</span>
-<span class="n">widgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">([</span><span class="n">checkbox1</span><span class="p">,</span> <span class="n">out</span><span class="p">])</span>
+<span class="n">out</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">interactive_output</span><span class="p">(</span><span class="n">regressielijn</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;x&#39;</span><span class="p">:</span> <span class="n">checkbox1</span><span class="p">})</span>
+<span class="n">ipywidgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">([</span><span class="n">checkbox1</span><span class="p">,</span> <span class="n">out</span><span class="p">])</span>
 </pre></div>
 
     </div>
@@ -14196,10 +14196,10 @@ In de scatterplot is duidelijk te zien dat er een verband is tussen het aantal b
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">continentList</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;All&#39;</span><span class="p">]</span>
 <span class="n">continentList</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">df_corona_country_merge_2</span><span class="o">.</span><span class="n">Continent_Name</span><span class="o">.</span><span class="n">unique</span><span class="p">())</span>
 
-<span class="n">continentW</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">continentList</span><span class="p">)</span>
-<span class="n">countryW</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">()</span>
+<span class="n">continentW</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="n">continentList</span><span class="p">)</span>
+<span class="n">countryW</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">()</span>
 
-<span class="nd">@widgets</span><span class="o">.</span><span class="n">interact</span><span class="p">(</span><span class="n">continent</span> <span class="o">=</span> <span class="n">continentW</span><span class="p">,</span> <span class="n">country</span> <span class="o">=</span> <span class="n">countryW</span><span class="p">)</span>
+<span class="nd">@ipywidgets</span><span class="o">.</span><span class="n">interact</span><span class="p">(</span><span class="n">continent</span> <span class="o">=</span> <span class="n">continentW</span><span class="p">,</span> <span class="n">country</span> <span class="o">=</span> <span class="n">countryW</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">print_city</span><span class="p">(</span><span class="n">continent</span><span class="p">,</span> <span class="n">country</span><span class="p">):</span>
     <span class="n">countriesList</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;All&#39;</span><span class="p">]</span>
     <span class="n">countriesList</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">df_corona_country_merge_2</span><span class="p">[</span><span class="n">df_corona_country_merge_2</span><span class="o">.</span><span class="n">Continent_Name</span> <span class="o">==</span> <span class="n">continent</span><span class="p">]</span><span class="o">.</span><span class="n">Country</span><span class="o">.</span><span class="n">unique</span><span class="p">())</span>
@@ -14286,7 +14286,7 @@ Er lijkt geen sterk verschil te zijn tussen de verschillende continenten. Alleen
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>124    22546.463463
+<pre>124    22545.90972
 Name: TotalConfirmed, dtype: float64</pre>
 </div>
 
@@ -15233,15 +15233,15 @@ memory usage: 6.5 KB
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dropdown</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;confirmed per day&#39;</span><span class="p">,</span> <span class="s1">&#39;confirmed cumulative&#39;</span><span class="p">,</span> <span class="s1">&#39;deaths per day&#39;</span><span class="p">,</span> <span class="s1">&#39;deaths cumulative&#39;</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dropdown</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;confirmed per day&#39;</span><span class="p">,</span> <span class="s1">&#39;confirmed cumulative&#39;</span><span class="p">,</span> <span class="s1">&#39;deaths per day&#39;</span><span class="p">,</span> <span class="s1">&#39;deaths cumulative&#39;</span><span class="p">])</span>
 
 <span class="k">def</span> <span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
     <span class="n">g</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">relplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df_covid_nl_history</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;date&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span> <span class="n">x</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s1">&#39;line&#39;</span><span class="p">,</span> <span class="n">aspect</span> <span class="o">=</span> <span class="mf">1.5</span><span class="p">)</span>
     <span class="n">g</span><span class="o">.</span><span class="n">fig</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s1">&#39;Aantal coronabesmettingen/coronadoden in 2020 &#39;</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="mf">1.07</span><span class="p">)</span>
     <span class="n">g</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">xlabel</span> <span class="o">=</span> <span class="s1">&#39;Datum (jaar-maand)&#39;</span><span class="p">,</span> <span class="n">ylabel</span> <span class="o">=</span> <span class="s1">&#39;Aantal besmettingen/doden&#39;</span><span class="p">)</span>
     
-<span class="n">out</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">interactive_output</span><span class="p">(</span><span class="n">plot</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;x&#39;</span><span class="p">:</span> <span class="n">dropdown</span><span class="p">})</span>
-<span class="n">widgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">([</span><span class="n">dropdown</span><span class="p">,</span> <span class="n">out</span><span class="p">])</span>
+<span class="n">out</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">interactive_output</span><span class="p">(</span><span class="n">plot</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;x&#39;</span><span class="p">:</span> <span class="n">dropdown</span><span class="p">})</span>
+<span class="n">ipywidgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">([</span><span class="n">dropdown</span><span class="p">,</span> <span class="n">out</span><span class="p">])</span>
 </pre></div>
 
     </div>
@@ -16214,8 +16214,8 @@ memory usage: 440.0+ bytes
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Cylim_min</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">IntSlider</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Kies minimum Y-waarde COVID-19 infecties&#39;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">},</span> <span class="nb">min</span><span class="o">=</span><span class="n">df_covid_nl_history_confirmed</span><span class="p">[</span><span class="s1">&#39;confirmed per day&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span> <span class="nb">max</span><span class="o">=</span><span class="n">df_covid_nl_history_confirmed</span><span class="p">[</span><span class="s1">&#39;confirmed per day&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">-</span><span class="mi">100</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;100%&#39;</span><span class="p">))</span>
-<span class="n">Cylim_max</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">IntSlider</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Kies maximum Y-waarde COVID-19 infecties&#39;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">},</span> <span class="nb">min</span><span class="o">=</span><span class="n">df_covid_nl_history_confirmed</span><span class="p">[</span><span class="s1">&#39;confirmed per day&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">()</span><span class="o">+</span><span class="mi">100</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="n">df_covid_nl_history_confirmed</span><span class="p">[</span><span class="s1">&#39;confirmed per day&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">+</span><span class="mi">100</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="n">df_covid_nl_history_confirmed</span><span class="p">[</span><span class="s1">&#39;confirmed per day&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">+</span><span class="mi">100</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;100%&#39;</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Cylim_min</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">IntSlider</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Kies minimum Y-waarde COVID-19 infecties&#39;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">},</span> <span class="nb">min</span><span class="o">=</span><span class="n">df_covid_nl_history_confirmed</span><span class="p">[</span><span class="s1">&#39;confirmed per day&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span> <span class="nb">max</span><span class="o">=</span><span class="n">df_covid_nl_history_confirmed</span><span class="p">[</span><span class="s1">&#39;confirmed per day&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">-</span><span class="mi">100</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;100%&#39;</span><span class="p">))</span>
+<span class="n">Cylim_max</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">IntSlider</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Kies maximum Y-waarde COVID-19 infecties&#39;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">},</span> <span class="nb">min</span><span class="o">=</span><span class="n">df_covid_nl_history_confirmed</span><span class="p">[</span><span class="s1">&#39;confirmed per day&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">()</span><span class="o">+</span><span class="mi">100</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="n">df_covid_nl_history_confirmed</span><span class="p">[</span><span class="s1">&#39;confirmed per day&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">+</span><span class="mi">100</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="n">df_covid_nl_history_confirmed</span><span class="p">[</span><span class="s1">&#39;confirmed per day&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">+</span><span class="mi">100</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;100%&#39;</span><span class="p">))</span>
 
 <span class="k">def</span> <span class="nf">on_value_change</span><span class="p">(</span><span class="n">change</span><span class="p">):</span>
     <span class="n">new_Cylim_min</span> <span class="o">=</span> <span class="n">change</span><span class="p">[</span><span class="s1">&#39;new&#39;</span><span class="p">]</span>
@@ -16244,8 +16244,8 @@ memory usage: 440.0+ bytes
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Bylim_min</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">IntSlider</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Kies minimum Y-waarde faillissementen&#39;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">},</span> <span class="nb">min</span><span class="o">=</span><span class="n">df_faillissementen_2020</span><span class="p">[</span><span class="s2">&quot;Pronounced bankruptcies (Number)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span> <span class="nb">max</span><span class="o">=</span><span class="n">df_faillissementen_2020</span><span class="p">[</span><span class="s2">&quot;Pronounced bankruptcies (Number)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;100%&#39;</span><span class="p">))</span>
-<span class="n">Bylim_max</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">IntSlider</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Kies maximum Y-waarde faillissementen&#39;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">},</span> <span class="nb">min</span><span class="o">=</span><span class="n">df_faillissementen_2020</span><span class="p">[</span><span class="s2">&quot;Pronounced bankruptcies (Number)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">()</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="n">df_faillissementen_2020</span><span class="p">[</span><span class="s2">&quot;Pronounced bankruptcies (Number)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">+</span><span class="mi">10</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="n">df_faillissementen_2020</span><span class="p">[</span><span class="s2">&quot;Pronounced bankruptcies (Number)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">+</span><span class="mi">10</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;100%&#39;</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Bylim_min</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">IntSlider</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Kies minimum Y-waarde faillissementen&#39;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">},</span> <span class="nb">min</span><span class="o">=</span><span class="n">df_faillissementen_2020</span><span class="p">[</span><span class="s2">&quot;Pronounced bankruptcies (Number)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span> <span class="nb">max</span><span class="o">=</span><span class="n">df_faillissementen_2020</span><span class="p">[</span><span class="s2">&quot;Pronounced bankruptcies (Number)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;100%&#39;</span><span class="p">))</span>
+<span class="n">Bylim_max</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">IntSlider</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Kies maximum Y-waarde faillissementen&#39;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">},</span> <span class="nb">min</span><span class="o">=</span><span class="n">df_faillissementen_2020</span><span class="p">[</span><span class="s2">&quot;Pronounced bankruptcies (Number)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">()</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="n">df_faillissementen_2020</span><span class="p">[</span><span class="s2">&quot;Pronounced bankruptcies (Number)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">+</span><span class="mi">10</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="n">df_faillissementen_2020</span><span class="p">[</span><span class="s2">&quot;Pronounced bankruptcies (Number)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">+</span><span class="mi">10</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;100%&#39;</span><span class="p">))</span>
 
 <span class="k">def</span> <span class="nf">on_value_change</span><span class="p">(</span><span class="n">change</span><span class="p">):</span>
     <span class="n">new_Bylim_min</span> <span class="o">=</span> <span class="n">change</span><span class="p">[</span><span class="s1">&#39;new&#39;</span><span class="p">]</span>
@@ -16275,7 +16275,7 @@ memory usage: 440.0+ bytes
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">options</span> <span class="o">=</span> <span class="n">df_faillissementen_2020</span><span class="p">[</span><span class="s1">&#39;Periods&#39;</span><span class="p">]</span>
-<span class="n">dateslider</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">SelectionRangeSlider</span><span class="p">(</span>
+<span class="n">dateslider</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">SelectionRangeSlider</span><span class="p">(</span>
     <span class="n">options</span><span class="o">=</span><span class="n">options</span><span class="p">,</span>
     <span class="n">index</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">),</span>
     <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Selecteer datumbereik&#39;</span><span class="p">,</span>
@@ -16307,7 +16307,7 @@ memory usage: 440.0+ bytes
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">titlebox</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Text</span><span class="p">(</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">titlebox</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">Text</span><span class="p">(</span>
     <span class="n">placeholder</span><span class="o">=</span><span class="s1">&#39;Kies titel&#39;</span><span class="p">,</span>
     <span class="n">value</span><span class="o">=</span><span class="s1">&#39;Relatie tussen COVID-19 infecties en definitief aantal uitgeroepen faillissementen&#39;</span><span class="p">,</span>
     <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Vul een grafiektitel in:&#39;</span><span class="p">,</span>
@@ -16337,13 +16337,13 @@ memory usage: 440.0+ bytes
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">colorCovid</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">ColorPicker</span><span class="p">(</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">colorCovid</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">ColorPicker</span><span class="p">(</span>
     <span class="n">description</span> <span class="o">=</span> <span class="s2">&quot;Kies een kleur voor &#39;COVID-19 infecties&#39;&quot;</span><span class="p">,</span>
     <span class="n">value</span> <span class="o">=</span> <span class="s1">&#39;blue&#39;</span><span class="p">,</span>
     <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">}</span>
 <span class="p">)</span>
 
-<span class="n">colorBankrupt</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">ColorPicker</span><span class="p">(</span>
+<span class="n">colorBankrupt</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">ColorPicker</span><span class="p">(</span>
     <span class="n">description</span> <span class="o">=</span> <span class="s2">&quot;Kies een kleur voor &#39;definitief aantal faillissementen&#39;&quot;</span><span class="p">,</span>
     <span class="n">value</span> <span class="o">=</span> <span class="s1">&#39;tomato&#39;</span><span class="p">,</span>
     <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">}</span>
@@ -16386,8 +16386,8 @@ memory usage: 440.0+ bytes
     <span class="n">br1</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">([</span><span class="n">Cylim_min</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="n">Cylim_max</span><span class="o">.</span><span class="n">value</span><span class="p">])</span>
     <span class="n">br2</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">([</span><span class="n">Bylim_min</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="n">Bylim_max</span><span class="o">.</span><span class="n">value</span><span class="p">])</span>
 
-<span class="n">out</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">interactive_output</span><span class="p">(</span><span class="n">ranges</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;adjust&#39;</span><span class="p">:</span> <span class="n">dateslider</span><span class="p">,</span> <span class="s1">&#39;adjustLY1&#39;</span><span class="p">:</span><span class="n">Cylim_min</span><span class="p">,</span> <span class="s1">&#39;adjustLY2&#39;</span><span class="p">:</span><span class="n">Cylim_max</span><span class="p">,</span> <span class="s1">&#39;adjustRY1&#39;</span><span class="p">:</span><span class="n">Bylim_min</span><span class="p">,</span> <span class="s1">&#39;adjustRY2&#39;</span><span class="p">:</span><span class="n">Bylim_max</span><span class="p">,</span> <span class="s1">&#39;title&#39;</span><span class="p">:</span><span class="n">titlebox</span><span class="p">,</span> <span class="s1">&#39;colorCovid&#39;</span><span class="p">:</span><span class="n">colorCovid</span><span class="p">,</span> <span class="s1">&#39;colorBankrupt&#39;</span><span class="p">:</span><span class="n">colorBankrupt</span><span class="p">})</span>
-<span class="n">widgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">([</span><span class="n">widgets</span><span class="o">.</span><span class="n">HBox</span><span class="p">([</span><span class="n">dateslider</span><span class="p">,</span> <span class="n">titlebox</span><span class="p">]),</span> <span class="n">Cylim_min</span><span class="p">,</span> <span class="n">Cylim_max</span><span class="p">,</span> <span class="n">Bylim_min</span><span class="p">,</span> <span class="n">Bylim_max</span><span class="p">,</span> <span class="n">out</span><span class="p">,</span> <span class="n">colorCovid</span><span class="p">,</span> <span class="n">colorBankrupt</span><span class="p">])</span>
+<span class="n">out</span> <span class="o">=</span> <span class="n">ipywidgets</span><span class="o">.</span><span class="n">interactive_output</span><span class="p">(</span><span class="n">ranges</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;adjust&#39;</span><span class="p">:</span> <span class="n">dateslider</span><span class="p">,</span> <span class="s1">&#39;adjustLY1&#39;</span><span class="p">:</span><span class="n">Cylim_min</span><span class="p">,</span> <span class="s1">&#39;adjustLY2&#39;</span><span class="p">:</span><span class="n">Cylim_max</span><span class="p">,</span> <span class="s1">&#39;adjustRY1&#39;</span><span class="p">:</span><span class="n">Bylim_min</span><span class="p">,</span> <span class="s1">&#39;adjustRY2&#39;</span><span class="p">:</span><span class="n">Bylim_max</span><span class="p">,</span> <span class="s1">&#39;title&#39;</span><span class="p">:</span><span class="n">titlebox</span><span class="p">,</span> <span class="s1">&#39;colorCovid&#39;</span><span class="p">:</span><span class="n">colorCovid</span><span class="p">,</span> <span class="s1">&#39;colorBankrupt&#39;</span><span class="p">:</span><span class="n">colorBankrupt</span><span class="p">})</span>
+<span class="n">ipywidgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">([</span><span class="n">ipywidgets</span><span class="o">.</span><span class="n">HBox</span><span class="p">([</span><span class="n">dateslider</span><span class="p">,</span> <span class="n">titlebox</span><span class="p">]),</span> <span class="n">Cylim_min</span><span class="p">,</span> <span class="n">Cylim_max</span><span class="p">,</span> <span class="n">Bylim_min</span><span class="p">,</span> <span class="n">Bylim_max</span><span class="p">,</span> <span class="n">out</span><span class="p">,</span> <span class="n">colorCovid</span><span class="p">,</span> <span class="n">colorBankrupt</span><span class="p">])</span>
 </pre></div>
 
     </div>
